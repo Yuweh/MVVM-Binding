@@ -12,6 +12,8 @@ class RegistrationTableViewController : UITableViewController {
     
     private var registrationViewModel: RegistrationViewModel!
     
+    
+    
     @IBOutlet weak var emailTextField: BindingTextBox! {
         didSet {
             emailTextField.bind { self.registrationViewModel.email = $0 }
@@ -27,7 +29,7 @@ class RegistrationTableViewController : UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.registrationViewModel = RegistrationViewModel()
-        
+        //self.emailTextField.text
     }
     
     @IBAction func save() {
