@@ -15,7 +15,7 @@ class UsersTableViewController : UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let user1 = UserViewModel(email: "johndoe@gmail.com",password: "password")
+        let user1 = UserViewModel(email: "xian@gmail.com", password: "password")
         self.users.append(user1)
         
     }
@@ -38,7 +38,7 @@ class UsersTableViewController : UITableViewController {
         let user = self.users[indexPath.row]
         
         let registrationTVC = segue.destination as! RegistrationTableViewController
-        //registrationTVC.selectedUser = user
+        registrationTVC.selectedUser = user
     }
     
 }
