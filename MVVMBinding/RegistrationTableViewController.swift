@@ -10,17 +10,29 @@ import UIKit
 
 class RegistrationTableViewController : UITableViewController {
     
-    @IBOutlet weak var emailTextField :UITextField!
-    @IBOutlet weak var passwordTextField :UITextField!
+    private var registrationViewModel: RegistrationViewModel!
+    
+    @IBOutlet weak var emailTextField: BindingTextBox! {
+        didSet {
+            emailTextField.bind { self.registrationViewModel.email = $0 }
+        }
+    }
+        
+    @IBOutlet weak var passwordTextField: BindingTextBox! {
+        didSet {
+            passwordTextField.bind { self.registrationViewModel.password = $0 }
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.registrationViewModel = RegistrationViewModel()
         
     }
     
     @IBAction func save() {
         
-        
+        print(self.registrationViewModel)
     }
     
 }

@@ -13,6 +13,8 @@
 		8D99F4FD1FD5DC2E007A59B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D99F4FC1FD5DC2E007A59B7 /* Assets.xcassets */; };
 		8D99F5001FD5DC2E007A59B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D99F4FE1FD5DC2E007A59B7 /* LaunchScreen.storyboard */; };
 		8D99F50A1FD5E70B007A59B7 /* RegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D99F5091FD5E70B007A59B7 /* RegistrationTableViewController.swift */; };
+		9074C76220AD5E68006013B0 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074C76120AD5E68006013B0 /* RegistrationViewModel.swift */; };
+		9074C76420AD5EC1006013B0 /* BindingTextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074C76320AD5EC1006013B0 /* BindingTextBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8D99F4FF1FD5DC2E007A59B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D99F5011FD5DC2E007A59B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D99F5091FD5E70B007A59B7 /* RegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTableViewController.swift; sourceTree = "<group>"; };
+		9074C76120AD5E68006013B0 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		9074C76320AD5EC1006013B0 /* BindingTextBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTextBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				8D99F5091FD5E70B007A59B7 /* RegistrationTableViewController.swift */,
+				9074C76120AD5E68006013B0 /* RegistrationViewModel.swift */,
 				8D99F4F71FD5DC2E007A59B7 /* ViewController.swift */,
 				8D99F4F91FD5DC2E007A59B7 /* Main.storyboard */,
 				8D99F4FC1FD5DC2E007A59B7 /* Assets.xcassets */,
 				8D99F4FE1FD5DC2E007A59B7 /* LaunchScreen.storyboard */,
 				8D99F5011FD5DC2E007A59B7 /* Info.plist */,
 				8D99F4F51FD5DC2E007A59B7 /* AppDelegate.swift */,
+				9074C76320AD5EC1006013B0 /* BindingTextBox.swift */,
 			);
 			path = MVVMBinding;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D99F4F81FD5DC2E007A59B7 /* ViewController.swift in Sources */,
+				9074C76420AD5EC1006013B0 /* BindingTextBox.swift in Sources */,
+				9074C76220AD5E68006013B0 /* RegistrationViewModel.swift in Sources */,
 				8D99F50A1FD5E70B007A59B7 /* RegistrationTableViewController.swift in Sources */,
 				8D99F4F61FD5DC2E007A59B7 /* AppDelegate.swift in Sources */,
 			);
