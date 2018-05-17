@@ -44,18 +44,24 @@ class RegistrationTableViewController : UITableViewController {
         self.registrationViewModel.email = self.emailTextField.text!
         self.registrationViewModel.password = self.passwordTextField.text!
         
-        var message = ""
-        
-        if(self.registrationViewModel.email.isEmpty) {
-            message += "Email is empty"
+        if(self.registrationViewModel.isValid) {
+            print("Validation is OK")
+        } else {
+            print(self.registrationViewModel.brokenRules)
         }
-        if(self.registrationViewModel.password.isEmpty) {
-            message += "Password is empty"
-        }
-        
-        let alertController = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
-        let alertOKAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-        self.present(alertController, animated: true, completion: nil)
+//
+//        var message = ""
+//
+//        if(self.registrationViewModel.email.isEmpty) {
+//            message += "Email is empty"
+//        }
+//        if(self.registrationViewModel.password.isEmpty) {
+//            message += "Password is empty"
+//        }
+//
+//        let alertController = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
+//        let alertOKAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+//        self.present(alertController, animated: true, completion: nil)
     }
     
 }
