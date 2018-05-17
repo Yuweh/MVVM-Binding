@@ -12,11 +12,12 @@ works with
 ## Project Objectives
 
 Learn about the Live Binding
+Implement View to VM and vice versa
 
 ## Home & User Info
 
-<img src="https://github.com/Yuweh/HelloMVVM/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202018-05-17%20at%2013.28.30.png" width="300"> 
-<img src="https://github.com/Yuweh/HelloMVVM/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202018-05-17%20at%2013.29.19.png" width="300">
+<img src="https://github.com/Yuweh/MVVM-Binding/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202018-05-17%20at%2017.47.45.png" width="400"> 
+
 
 
 ------
